@@ -21,7 +21,7 @@ The proxy keeps a list of active memcached servers, rebalancing keys in case the
 Fast enough.
 
     Starting 100 clients running 500 requests each.
-    user          system      total        real
+                   user     system      total        real
     moxiset:     2.250000   1.840000   4.090000 (  2.655543)
     roxterset:   2.270000   1.630000   3.900000 (  2.585357)
     moxiget:     2.400000   2.150000   4.550000 (  2.922284)
