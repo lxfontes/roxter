@@ -157,6 +157,7 @@ func main() {
     ss.AddServer(name, server)
   }
 
+  ss.rebalance()
   ss.Monitor()
 
   proxy := roxter.NewProxyFromSelector(ss)
